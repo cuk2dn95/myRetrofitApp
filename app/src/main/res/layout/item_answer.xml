@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="How to deploy App in Jenkin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:text="8"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/title"
+        />
+
+
+
+    <TextView
+        android:text="creation date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@id/title"
+        android:id="@+id/label_creation_date"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/creation_date"
+        android:layout_below="@id/title"
+        android:textStyle="italic"
+        android:text="20/01/2013"
+        android:layout_toRightOf="@id/label_creation_date"
+        />
+
+    <TextView
+        android:text="last edit date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_below="@id/label_creation_date"
+        android:id="@+id/label_last_edit_date"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_edit_date"
+        android:layout_below="@id/label_creation_date"
+        android:textStyle="italic"
+        android:text="20/01/2013"
+        android:layout_toRightOf="@id/label_last_edit_date"
+        />
+
+</RelativeLayout>
